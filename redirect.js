@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const loginButton = document.getElementById('loginButton');
     if (loginButton) {
         loginButton.addEventListener('click', function(event) {
-            event.preventDefault(); // Предотвращает переход по ссылке
+            event.preventDefault(); 
             window.location.href = "index.html";
         });
     }
